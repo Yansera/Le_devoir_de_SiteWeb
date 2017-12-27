@@ -1,0 +1,155 @@
+body {}
+
+#banniere a {
+    text-decoration: none;
+}
+
+#banniere {
+    display: block;
+    color: #fff;
+    background: #1874CD;
+    font-family: Calibri Light;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#menu {
+    padding: 0%;
+    /* pas de marge intérieure */
+    margin: 0%;
+    /* ni extérieure */
+    list-style: none;
+    /* on supprime le style par défaut de la liste */
+    line-height: 25px;
+    /* on définit une hauteur pour chaque élément */
+    text-align: right;
+    /* on centre le texte qui se trouve dans la liste */
+}
+
+#menu ul {
+    padding: 0%;
+    /* pas de marge intérieure */
+    margin: 0%;
+    /* ni extérieure */
+    list-style: none;
+    /* on supprime le style par défaut de la liste */
+    line-height: 25px;
+    /* on définit une hauteur pour chaque élément */
+    text-align: right;
+    /* on centre le texte qui se trouve dans la liste */
+}
+
+#menu
+/* Ensemble du menu */
+
+{
+    position: fixed;
+    top: 123px;
+    right: 14px;
+    font-weight: bold;
+    /* on met le texte en gras */
+    font-family: Calibri Light;
+    /* on utilise Arial, c'est plus beau ^^ */
+    font-size: 12px;
+    /* hauteur du texte : 12 pixels */
+}
+
+#menu a
+/* Contenu des listes */
+
+{
+    display: block;
+    /* on change le type d'élément, les liens deviennent des balises de type block */
+    padding-right: 3%;
+    background: #1874CD;
+    /* couleur de fond */
+    color: #fff;
+    /* couleur du texte */
+    text-decoration: none;
+    /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+    font-family: Calibri Light;
+    font-size: 17px;
+    width: 175px;
+    height: 25px;
+    border-style: double;
+    border-width: 1px;
+}
+
+#menu li ul
+/* Éléments des listes */
+
+{
+    position: absolute;
+    /* Position absolue */
+    left: -999em;
+    /* Hop, on envoie loin du champ de vision */
+}
+
+#menu a:hover
+/* Lorsque la souris passe sur un des liens */
+
+{
+    color: #000;
+    /* On passe le texte en noir... */
+    background: #1E90FF;
+    /* ... et au contraire, le fond en blanc */
+    display:
+}
+
+#menu li:hover ul
+/* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */
+
+{
+    left: auto;
+    /* Repositionnement normal */
+}
+
+.espace {
+    margin: 5%;
+}
+
+.moyen-espace {
+    margin: 3%;
+}
+
+.petit-espace {
+    margin: 1%;
+}
+
+.centrer {
+    text-align: center;
+}
+
+#nom {
+    align-content: center;
+}
+
+.marge_gauche {
+    margin-left: 3%;
+}
+
+#planning th {
+    text-align: center;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.meme-ligne {
+    float: left;
+}
+
+.bouton-prof {
+    width: 350px;
+}
+
+.rouge{
+    color: red;
+}
+
+.vert{
+    color: green;
+}
